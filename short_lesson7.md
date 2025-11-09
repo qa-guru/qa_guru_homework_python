@@ -28,6 +28,9 @@
 ### Дополнительное задание
 Создать класс LoggingEmailService, который наследуется от EmailService и переопределяет send_email для записи информации об отправке в файл send.log.
 
+### Развернутое описание проекта
+https://github.com/qa-guru/qa_guru_homework_python/blob/main/lesson7.md
+
 ### Ожидаемый результат
 
 Код должен корректно:
