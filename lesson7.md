@@ -66,7 +66,7 @@
   возвращает False, если все хорошо - True
 - `prepare() -> "Email"`  — метод, который подготавливает письмо для отправки (очистка subject/body и проверка, что
   subject/body/sender/recipients не пустые). Если есть пустые поля — статус письма INVALID
-- `__repr__` — красивый текстовый вывод письма. Использовать sender.masked и get_recipients_str() для вывода адресов.
+- `__str__` — красивый текстовый вывод письма. Использовать sender.masked и get_recipients_str() для вывода адресов.
   Если short_body заполнен — использовать его, иначе body
 
           f"Status: {self.status}\n"
