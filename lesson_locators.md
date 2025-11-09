@@ -12,4 +12,4 @@ https://topswagcode.com/xpath/
 ## Часть B. Найти элементы на странице 
 https://practice.expandtesting.com/xpath-css-tester
 
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/locators.png)
+![Найдите выделенные локаторы](https://github.com/qa-guru/qa_guru_homework_python/blob/main/locators.png)
