@@ -10,10 +10,9 @@
 * Нормализация email адресов
 
 ``` python 
-def normalize_addresses(email: dict) -> dict:
+def normalize_addresses(value: str) -> str:
     """
-    Возвращает новый словарь email, в котором адреса отправителя и получателя
-    приведены к нижнему регистру и очищены от пробелов по краям.
+    Возвращает значение, в котором адрес приведен к нижнему регистру и очищен от пробелов по краям.
     """
 ``` 
 
@@ -52,7 +51,7 @@ def build_sent_text(email: dict) -> str:
 * Проверка пустоты темы и тела
 
 ``` python
-def check_empty_fields(email: dict) -> tuple[bool, bool]:
+def check_empty_fields(subject: str, body:str) -> tuple[bool, bool]:
     """
     Возвращает кортеж (is_subject_empty, is_body_empty).
     True, если поле пустое.
